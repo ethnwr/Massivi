@@ -121,7 +121,7 @@ int sortPancakes(vector<int>& pancakes) {
 }
 
 int main() {
-    /*
+    
       // Задаем количество пользователей
       int numUsers;
       cout << "Введите количество пользователей: ";
@@ -177,9 +177,9 @@ int main() {
                   cout << "Неверный выбор. Попробуйте снова.\n";
           }
       } while (choice != 4);
-  */
+    
   //задание 2
- /* vector<int> arr = {5, 1, 4, 2, 8};
+  vector<int> arr = {5, 1, 4, 2, 8};
 
   cout << "Исходный массив: ";
   for (int i : arr) {
@@ -194,9 +194,9 @@ int main() {
     cout << i << " ";
   }
   cout << endl;
-*/
+
 //задание 3 
-/*
+
 vector<int> pancakes = {3, 2, 1, 4, 5};
 int operations = sortPancakes(pancakes);
 cout << "Количество операций: " << operations << endl;
@@ -206,7 +206,7 @@ for (int pancake : pancakes) {
     cout << pancake << " ";
 }
 cout << endl;
-*/
+
 //задание 4
     srand(time(0)); // Инициализация генератора случайных чисел
 
